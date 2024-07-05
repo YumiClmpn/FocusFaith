@@ -4,11 +4,11 @@ body {
     font-family: "VT323", monospace;
     font-weight: 500;
     font-style: normal;
-    background: #F0F0C9;
+    background: #A67B5B;
 }
 
 header {
-    background-color: #e3655b;
+    background-color: #A67B5B;
     padding: 10px 0;
     font-family: "Silkscreen", sans-serif;
     font-weight: 100;
@@ -41,8 +41,12 @@ h1 {
     margin: 0;
 }
 
+iframe {
+    border: none;
+}
+
 #focusfaith {
-    color: #F0F0C9;
+    color: white;
     margin-left: 10px;
 }
 
@@ -65,7 +69,7 @@ h1 {
 }
 
 .cta-button {
-    background-color: #6f538c;
+    background-color: #ECB176;
     border: none;
     color: white;
     padding: 15px 30px;
@@ -75,6 +79,10 @@ h1 {
 .intro, .features, .testimonials, .newsletter, .content {
     padding: 20px;
     text-align: center;
+}
+
+.featuredres {
+    list-style-type: none;
 }
 
 .newsletter form {
@@ -89,7 +97,7 @@ h1 {
 }
 
 .newsletter button {
-    background-color: #FF9800;
+    background-color: #ECB176;
     border: none;
     color: white;
     padding: 10px 20px;
